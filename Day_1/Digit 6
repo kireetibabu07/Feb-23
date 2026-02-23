@@ -1,0 +1,13 @@
+a=int(input())
+print("* "*a)
+if a>1:
+    for i in range(a-2):
+        print("* ")
+    c=""    
+    for i in range(a):
+        c=c+"* "
+    print(c)
+    for i in range(a-2):
+        print("* "+"  "*(a-2)+"* ")
+    print(c)    
+    

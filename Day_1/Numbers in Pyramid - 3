@@ -1,0 +1,5 @@
+a=int(input())
+c=""
+for i in range(a):
+    c="0 "*(a-i-1)+"1 "*(2*i+1)+"0 "*(a-i-1)
+    print(c)

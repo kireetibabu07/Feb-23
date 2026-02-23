@@ -1,0 +1,20 @@
+a=int(input())
+d=int(input())
+b="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+c=""
+for i in range(d):
+    c=c+b[i]+" "
+print(c)
+c=""
+e=d-1
+for i in range(a-2):
+    e=e+1
+    c=b[e]+" "+"  "*(d-2)
+    e=e+(d-1)
+    c=c+b[e]+" "
+    print(c)
+if d>2:
+    c=""
+    for i in range(d):
+        c=c+b[e+i+1]+" "
+    print(c)

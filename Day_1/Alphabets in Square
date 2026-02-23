@@ -1,0 +1,7 @@
+a=int(input())
+b="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+c=""
+for i in range(a):
+    c=c+b[i]+" "
+for i in range(a):
+    print(c)
